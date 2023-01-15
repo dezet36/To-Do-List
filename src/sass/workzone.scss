@@ -1,0 +1,80 @@
+.work-wrap{
+    margin: 50px 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.card {
+    width: 30%;
+
+}
+
+.card-name{
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 15px ;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    
+}
+
+
+.card-text{
+    width: 50%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+   
+}
+
+.icons{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fa-plus{
+    cursor: pointer;
+    color: #3fabff;
+}
+
+.fa-trash{
+    cursor: pointer;
+    color: coral;
+}
+
+.counter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3), 1px 1px 5px rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.total{
+    width: 50%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.numbers-totals{
+    width: 50%;
+}
+
+.task{
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(6, 126, 217, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(6, 126, 217, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(6, 126, 217, 0.2);
+
+}
+

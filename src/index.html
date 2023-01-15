@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/index.scss">
+    <title>To do list</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header wrap">
+            <div class="logo">ToDo</div>
+            <h1 class="name">What Can I Do Today</h1>
+            <div class="time"></div>
+        </div>
+    </div>
+</header>
+
+<section class="works">
+    <div class="container">
+        <divc class="work-wrap">
+            <div class="card">
+                <div class="card-name">
+                    <p class="card-text">Make To Do</p>
+                    <div class="icons">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-trash all-task-delet" aria-hidden="true"></i>
+                    </div>
+                    
+                    
+                </div>
+                <div class="counter">
+                    <p class="total">Total</p>
+                    <div class="numbers-totals first-total">0</div>
+                </div>
+                <ul class="task first-block">
+                                            
+                </ul>
+
+            </div>
+            <div class="card">
+                <div class="card-name">
+                <p class="card-text">In progress</p>
+                <div class="icons">
+                    <i class="fa fa-trash all-task-delet-second" aria-hidden="true"></i>
+                </div>
+                </div>
+                <div class="counter">
+                    <p class="total">Total</p>
+                    <div class="numbers-totals second-total">0</div>
+                </div>
+                <ul class="task second-block"></ul>
+
+            </div>
+            <div class="card">
+                <div class="card-name">
+                    <p class="card-text">Done</p>
+                    <div class="icons">
+                        <i class="fa fa-trash all-task-delet-three" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="counter">
+                    <p class="total">Total</p>
+                    <div class="numbers-totals three-total">0</div>
+                </div>
+                <ul class="task three-block"></ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form">
+    <div class="container">
+        <div class="information">
+            <h3 class="info-logo">Fill in all required fields</h3>
+            <div class="info-title">
+                <p class="info-text">Title:</p>
+                <input type="text" name="" class="input-text titles">
+            </div>
+            <div class="info-description">
+                <p class="info-text">Description:</p>
+                <textarea class="input-text dist"  cols="33" rows="5"></textarea>
+            </div>
+            <div class="info-autor">
+                <input type="text" class="input-text autor">
+            </div>
+            <div class="inf-btn">
+                <button class="btn add">Add</button>
+                <button class="btn delet">Delet</button>
+            </div>
+        </div>
+        <div class="attention">
+            <div class="att-title">
+                <p class="att-title-text"> Прошу вашего внимания</p>
+            </div>
+            <div class="att-discr">
+                <p class="att-discr-text"> Вы ничего не заполнили</p>
+            </div>
+            <div class="att-btn">
+                <button class="btn close-att">Закрыть</button>
+            </div>
+        </div>                
+    </div>
+</section>
+    
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

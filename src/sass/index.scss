@@ -1,0 +1,27 @@
+@import "../sass/header.scss";
+@import "../sass/cdn.scss";
+@import "../sass/variables.scss";
+@import "../sass/workzone.scss";
+@import "../sass/info.scss";
+@import "../sass/attention.scss";
+@import "../sass/card.scss";
+
+
+*{
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+max-width: 1170px;
+margin: auto;
+padding: 0 15px;
+
+}
+
+.wrap{
+margin: 0 15px;
+}
