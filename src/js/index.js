@@ -56,39 +56,6 @@ let creattask = function(ftitle, fdescription, fautor){
     this.checked = false
 }
 
-// вывод элементов если в массивах что-то осталось из локал сторендж 
-// function localarr(){
-//     if(taskArr !== []){
-//         taskArr.forEach((element, index) =>{
-            
-//             $taskCardFirstBlock.innerHTML += addTaskInHtml(element, index);
-
-//             $firstTotal.innerHTML = index + 1;
-//         })
-//     };
-
-//     if(taskArrProgress !== []){
-//         taskArrProgress.forEach((element, index)=>{
-
-//             $taskCardSecondBlock.innerHTML += addTaskInHtmlReturn(element, index);
-
-//             $secondTotal.innerHTML = index + 1;
-//         })  
-//     }
-
-//     if(taskArrThree !== []){
-//         taskArrThree.forEach((element, index)=>{
-
-//             $swapTaskInSectionSecond.innerHTML += addTaskInHtmlReturnThree(element, index);
-
-//             $threeTotal.innerHTML = index + 1;
-//         })   
-//     }
-// } 
-
-
-
-
 // Пушить таски
 
 let addTaskInHtml = (el, i)=>{
@@ -262,11 +229,9 @@ forms.style.display = 'none';
 }
 
 
-
-
 })
 
-localarr();
+
 
 
 // Удаление всех тасков в первой секции
